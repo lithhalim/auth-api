@@ -1,29 +1,35 @@
 # basic-auth
 
 ## 🚀 heroku link 
-https://auth-600.herokuapp.com/
+https://auth-700.herokuapp.com/
 ## 🚀 project link
-https://github.com/lithhalim/basic-auth
+https://github.com/lithhalim/auth-api
 ## 🚀 pull request
-https://github.com/lithhalim/basic-auth/pulls
+https://github.com/lithhalim/auth-api/pulls
 ## 🚀 action
-https://github.com/lithhalim/basic-auth/actions
+https://github.com/lithhalim/auth-api/actions
 
 ## how use
 #### signup
-![](./assest/signup3.png)
+![](./assest/signup.png)
 #### signin
-![](./assest/signin3.png)
+![](./assest/signin.png)
 #### authrization
-![](./assest/secret3.png)
+![](./assest/authrization%20ss.png)
 
 ## test 
 ![](./assest/test%201.png)
 
-## UML 
-![](./assest/uml.png)
-## UML 
-![](./assest/uml%20authrization.png)
+## secret 
+![](./assest/secret%201.png)
+## secret 
+![](./assest/secret%202.png)
+
+## api gett 
+![](./assest/apiget.png)
+## api port 
+![](./assest/apipost.png)
+
 
 
 ## DECMUNTATION
