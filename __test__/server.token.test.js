@@ -64,3 +64,10 @@ describe('AUTHNTICATION', () => {
   });
 });
 
+
+
+afterAll(async () => {
+  await sequelize.drop();
+});
+
+
