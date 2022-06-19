@@ -15,7 +15,7 @@ https://github.com/lithhalim/auth-api/actions
 #### signin
 ![](./assest/sign%205.png)
 #### authrization
-![](./assest/authrization%20ss.png)
+![](./assest/UML%20LL.png)
 
 ## test 
 ![](./assest/test%205.png)
