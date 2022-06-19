@@ -11,24 +11,19 @@ https://github.com/lithhalim/auth-api/actions
 
 ## how use
 #### signup
-![](./assest/signup.png)
+![](./assest/signup%205.png)
 #### signin
-![](./assest/signin.png)
+![](./assest/sign%205.png)
 #### authrization
 ![](./assest/authrization%20ss.png)
 
 ## test 
-![](./assest/test%201.png)
+![](./assest/test%205.png)
 
-## secret 
-![](./assest/secret%201.png)
-## secret 
-![](./assest/secret%202.png)
-
-## api gett 
-![](./assest/apiget.png)
-## api port 
-![](./assest/apipost.png)
+## apiv2 
+![](./assest/api%20v2.png)
+## apiv2 fail 
+![](./assest/api%20v2%20not%20valid.png)
 
 
 
