@@ -18,6 +18,11 @@ beforeAll(async () => {
   await sequelize.sync();
 });
   
+afterAll(async () => {
+    await sequelize.drop();
+  });
+  
+
 
 Object.keys(Users).forEach(element => {
 
@@ -89,3 +94,6 @@ Object.keys(Users).forEach(element => {
     
     })
 });
+
+
+
