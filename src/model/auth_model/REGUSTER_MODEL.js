@@ -1,5 +1,5 @@
 
-const {DataTypes,Sequelize}=require("sequelize")
+const {DataTypes}=require("sequelize")
 const LITH_DATABASE=require("../../database/LITH_DATABASE")
 module.exports = LITH_DATABASE.define('authetess', {
     // Model attributes are defined here
@@ -18,7 +18,7 @@ module.exports = LITH_DATABASE.define('authetess', {
       type:DataTypes.ENUM('admin','writer','editor','user'),
       defaultValue:"user",
     },
-    action:{
+    action:{ 
       type: DataTypes.VIRTUAL,
       get(){
         const acl={

@@ -11,12 +11,17 @@ app.use(express.json())
 
 
 //----------------------------------------------ROUTES SECTION------------------------------------------//
+
 const AUTH_ROUTER=require("../routes/AUTH_JWT")
-const MAINPAGE=require('../controllers/mainpage/MAINPAGE')
+app.use(AUTH_ROUTER)
 const APIV2=require("../routes/API_V2")
-app.use("/",AUTH_ROUTER)
+app.use(APIV2)
+const APIV1=require("../routes/API_V1")
+app.use(APIV1)
+
+//ROUTES I USE
+const MAINPAGE=require('../controllers/mainpage/MAINPAGE')
 app.get('/',MAINPAGE)
-app.use("/",APIV2)
 
 //PROTECTED ROUTES 
 const BAREAR_AUTH=require("../auth/BAREAR_AUTH")
